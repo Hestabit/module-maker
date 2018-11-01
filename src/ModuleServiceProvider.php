@@ -15,6 +15,9 @@ class ModuleServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__.'/routes.php');
         $this->loadViewsFrom(__DIR__.'/views', 'module');
+        $this->publishes([
+        __DIR__.'/views' => resource_path('views/vendor/module'),
+    ]);
         
     }
 
@@ -25,10 +28,7 @@ class ModuleServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // $this->app->bind('mcm', function($app){
-        //     return new ModuleCreater(config('ModuleCreater.moduleCreater'));
-
-        // });
+        
     }
 
 }

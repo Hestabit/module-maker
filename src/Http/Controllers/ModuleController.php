@@ -49,6 +49,7 @@ class ModuleController extends Controller
     {   
         try
         {
+            $env_file = fopen(env("APP_PATH")."/.env", 'r');
             $created = [];
             
             $module = preg_replace('/\s+/', '', ucwords($request->module));
@@ -148,7 +149,7 @@ class ModuleController extends Controller
                 return view('module::module')->with('data', ['Module is already exist !']);
             }
         }catch(\Exception $e){
-            return view('module::module')->with('data', ['There is some error please try again!'.$e->getMessage()]);
+            return view('module::module')->with('data', ['APP_PATH not defined! set APP_PATH = "your project path" Ex. "/var/www/html/Project Name " at .env file']);
         }
     }
 }
