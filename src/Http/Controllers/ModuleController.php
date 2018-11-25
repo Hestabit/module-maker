@@ -1,11 +1,11 @@
 <?php
 
-namespace Sameer\Module\Http\Controllers;
+namespace hestalabs\Module\Http\Controllers;
 
 use Artisan;
 use URL;
 use Illuminate\Http\Request;
-use Sameer\Module\Http\Requests\ModuleName;
+use hestalabs\Module\Http\Requests\ModuleName;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 
