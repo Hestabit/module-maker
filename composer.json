@@ -9,14 +9,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Sameer\\Module\\": "src/"
+            "hestalabs\\Module\\": "src/"
         }
     },
     
     "extra": {
         "laravel": {
             "providers": [
-                "Sameer\\Module\\ModuleServiceProvider"
+                "hestalabs\\Module\\ModuleServiceProvider"
             ]
         }
     }
