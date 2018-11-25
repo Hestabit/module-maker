@@ -9,7 +9,7 @@
 // 	return $request->all();
 // })->name('module');
 
-Route::group(['namespace'=> 'Sameer\Module\Http\Controllers'], function(){	
+Route::group(['namespace'=> 'hestalabs\Module\Http\Controllers'], function(){	
 Route::get('module','ModuleController@create',['data'=> null])->name('module');
 Route::post('module','ModuleController@store')->name('module');
 });
