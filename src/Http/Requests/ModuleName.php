@@ -1,6 +1,6 @@
 <?php
 
-namespace Sameer\Module\Http\Requests;
+namespace hestalabs\Module\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
