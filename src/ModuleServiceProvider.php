@@ -1,6 +1,6 @@
 <?php 
 
-namespace Sameer\Module;
+namespace hestalabs\Module;
 
 use Illuminate\Support\ServiceProvider;
 
