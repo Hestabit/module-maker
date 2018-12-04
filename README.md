@@ -27,8 +27,8 @@ Like:         http://localhost:8000/module.
 Working:-
 
 1. You just have to install ( require ) this package in your project.
-2. You will get an option of ‘Make Module’ in your project when you execute your Project/Website.
-3. Click on ‘Module Maker’.
+2. Now hit the command in commandline 'php artisan serve'.
+3. Visit 'ServerPath/module'.
 4. Enter Module Name which you want to create.
 5. Choose Controller ‘Simple’ or ‘Resource’, if you want to create the controller for your module. 
 6. Click on View if you want to create a ‘View’ for your module.
