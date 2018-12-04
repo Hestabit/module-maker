@@ -1,0 +1,23 @@
+{
+    "name": "hestalabs/modulemaker",
+    "description": "It will create a complete module with GUI",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "sven/artisan-view": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "hestalabs\\Module\\": "src/"
+        }
+    },
+    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "hestalabs\\Module\\ModuleServiceProvider"
+            ]
+        }
+    }
+}
