@@ -19,7 +19,7 @@ Like:-    APP_PATH = "/var/www/html/your project name".
         
 Access at browser or Route:
 
-        Url: ServerPath\module
+        Url: ServerPath/module
 
 Like:         http://localhost:8000/module.
 
