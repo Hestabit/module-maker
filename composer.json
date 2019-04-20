@@ -1,5 +1,5 @@
 {
-    "name": "Hestabit/modulemaker",
+    "name": "hestabit/modulemaker",
     "description": "Module Maker is a package which is helpful to create modules with GUI, you can create a module with or without Controllers and View as per your requirement.",
     "type": "library",
     "license": "MIT",
