@@ -10,6 +10,7 @@ Introduction:-
 
 Installation:-
         1. **composer require hestabit/modulemaker**
+        
         2. Set your Project path in the .env file.
         
         Ex:
