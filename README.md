@@ -1,4 +1,10 @@
 ## Module Maker Package
+[![Latest Stable Version](https://poser.pugx.org/hestalabs/modulemaker/v/stable)](https://packagist.org/packages/hestalabs/modulemaker)
+[![Total Downloads](https://poser.pugx.org/hestalabs/modulemaker/downloads)](https://packagist.org/packages/hestalabs/modulemaker)
+[![License](https://poser.pugx.org/hestalabs/modulemaker/license)](https://packagist.org/packages/hestalabs/modulemaker)
+[![Monthly Downloads](https://poser.pugx.org/hestalabs/modulemaker/d/monthly)](https://packagist.org/packages/hestalabs/modulemaker)
+
+
 Module Maker is a package which is helpful to create modules with GUI, you can create a module with or without `Controllers` and `View` as per your requirements.
 
 **Installation:**
