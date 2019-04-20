@@ -9,7 +9,7 @@ Introduction:-
         Module Maker is a package which is helpful to create modules with GUI, you can create a module with or without Controllers and View as per your requirements.
 
 Installation:-
-        1. $ composer require hestalabs/modulemaker
+        1. $ composer require Hestabit/modulemaker
         2. Set your Project path in the .env file.
         
         Ex:

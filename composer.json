@@ -1,22 +1,42 @@
 {
-    "name": "hestalabs/modulemaker",
-    "description": "It will create a complete module with GUI",
+    "name": "Hestabit/modulemaker",
+    "description": "Module Maker is a package which is helpful to create modules with GUI, you can create a module with or without Controllers and View as per your requirement.",
     "type": "library",
     "license": "MIT",
     "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Hestabit",
+            "email": "support@hestabit.com",
+            "homepage": "https://github.com/Hestabit"
+        },
+        {
+            "name": "Aman Kumar",
+            "email": "aman.kumar@hestabit.in",
+            "homepage": "https://github.com/amanhestabit",
+            "role": "Developer"
+        },
+        {
+            "name": "Sameer Kumar",
+            "email": "sameer.k@hestabit.in",
+            "homepage": "https://github.com/Sameer8409",
+            "role": "Developer"
+        }
+    ],
+    "keywords": ["Laravel", "Modular Structure", "Generate Modules", "Laravel Modules", "Laravel Modules Generator"],
     "require": {
         "sven/artisan-view": "^3.0"
     },
     "autoload": {
         "psr-4": {
-            "Hestalabs\\Module\\": "src/"
+            "Hestabit\\Module\\": "src/"
         }
     },
     
     "extra": {
         "laravel": {
             "providers": [
-                "Hestalabs\\Module\\ModuleServiceProvider"
+                "Hestabit\\Module\\ModuleServiceProvider"
             ]
         }
     }

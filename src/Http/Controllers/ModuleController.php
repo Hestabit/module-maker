@@ -1,11 +1,11 @@
 <?php
 
-namespace Hestalabs\Module\Http\Controllers;
+namespace Hestabit\Module\Http\Controllers;
 
 use Artisan;
 use URL;
 use Illuminate\Http\Request;
-use Hestalabs\Module\Http\Requests\ModuleName;
+use Hestabit\Module\Http\Requests\ModuleName;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 
