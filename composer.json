@@ -25,7 +25,8 @@
     ],
     "keywords": ["Laravel", "Modular Structure", "Generate Modules", "Laravel Modules", "Laravel Modules Generator"],
     "require": {
-        "sven/artisan-view": "^3.0"
+        "sven/artisan-view": "^3.0", 
+        "php": ">=7.0"
     },
     "autoload": {
         "psr-4": {
